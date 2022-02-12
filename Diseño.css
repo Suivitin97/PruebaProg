@@ -1,0 +1,838 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    width: 96.8%;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo {
+    font-family: Inter;
+    margin-left: 250px;
+    font-size: 50px;
+    background: #ccc;
+    background: linear-gradient(#4776E6, #038A10);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.imagen {
+    margin-left: 160px;
+    width: 80px;
+    position: absolute;
+    top: 30px;
+
+    
+}
+
+.FondoP {
+    background-color: #f7f9fc;
+    width: 100%;
+    height: 6650px;
+}
+
+.subtitulo {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 900;
+    color: #363636;
+    text-align: center;
+    padding-right: 600px;
+    padding-top: 300px;
+}
+
+.subtitulo2 {
+    font-family: Inter;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    padding-right: 640px;
+    background: #ccc;
+    background: linear-gradient(#08a06c, #05ad62);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#En {
+    background: #ccc;
+    background: linear-gradient(#116f8e, #0f7b86);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.imagen2 {
+    position: absolute;
+    bottom: 100px;
+    left: 1100px;
+    top:350px;
+}
+
+.Contacto{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #15579E;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgba(21, 87, 158, 0.1);
+    width: 200px;
+    height: 42px;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    left: 1300px;
+    bottom: 850px;
+    border-radius: 4px;
+
+}
+
+.Contacto:active {
+    transform: translateY(2px);
+}
+
+
+
+#Azul {
+    background-color: #15579E;
+    height: 1000px;
+    width: 100%;
+    position:absolute;
+    bottom: -1450px;
+    
+}
+
+#Encuesta {
+    background-color: white;
+    height: 560px;
+    width: 1300px;
+    left: 200px;
+    position: absolute;
+    bottom:-550px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Cotizacion {
+    margin: 60px;
+    font-weight: 700;
+    font-family: Inter;
+    font-size: 40px;
+    background: #ccc;
+    background: radial-gradient( #00CA4E, #15579E
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#Plazo {
+    margin: 0px 60px;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 28px;
+    color:#363636;
+    position: absolute;
+    top: 105px;
+}
+
+#texto1 {
+    margin: 0px 60px;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    color:#363636;
+    position: absolute;
+    top: 200px;
+    width: 500px;
+
+
+}
+
+#Correo {
+    margin: 0px 700px;
+    font-weight: 800;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 30px;
+    color:#363636;
+    position: absolute;
+    bottom: 460px;
+    width: 500px;
+}
+
+#Request {
+    margin: 0px 700px;
+    font-family: Inter;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 390px;
+    width: 490px;
+    height: 50px;
+    border: 1px solid rgba(54, 54, 54, 0.12);
+}
+
+#Buscando {
+    margin: 0px 700px;
+    font-weight: 800;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 30px;
+    color:#363636;
+    position: absolute;
+    bottom: 310px;
+    width: 500px;
+}
+
+#Necesidad {
+    margin: 0px 700px;
+    position: absolute;
+    bottom: 190px;
+    width: 500px;
+    height: 80px;
+    font-size: 16px;
+    padding-top: 20px;
+    border: 1px solid rgba(54, 54, 54, 0.12);
+}
+
+.Enviar {
+    margin: 0px 700px;
+    position: absolute;
+    bottom: 60px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: white;
+    width: 340px;
+    height: 58px;
+    left: 90px;
+    border-radius: 4px;
+    border: 10px;
+    background:linear-gradient(#15579E, #00CA4E);
+}
+
+.Enviar:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+
+
+#texto2 {
+    position: absolute;
+    bottom: -750px;
+    left: 800px;
+    font-family: Inter;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+#texto3 {
+    position: absolute;
+    bottom: -830px;
+    left: 600px;
+    font-family: Inter;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+}
+
+#flecha1 {
+    position: absolute;
+    bottom: -1050px;
+    left: 300px;
+}
+
+#uno {
+    position: absolute;
+    bottom: -1070px;
+    left: 475px;
+}
+
+#dos {
+    position: absolute;
+    bottom: -1054px;
+    left: 595px;
+}
+
+#tres {
+    position: absolute;
+    bottom: -1074px;
+    left: 895px;
+}
+
+#flecha3 {
+    position: absolute;
+    bottom: -1055px;
+    left: 1010px;
+}
+
+#cuatro {
+    position: absolute;
+    bottom: -1074px;
+    left: 1310px;
+}
+
+#flecha4 {
+    position: absolute;
+    bottom: -1058px;
+    left: 1430px;
+}
+
+#parrafo1 {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    font-size: normal;
+    color: white;
+    margin: 0px 750px;
+    position: absolute;
+    bottom: -1190px;
+    right: 500px;
+    width: 200px;
+    text-align: center;
+}
+
+#parrafo2 {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    font-size: normal;
+    color: white;
+    margin: 0px 750px;
+    position: absolute;
+    bottom: -1190px;
+    right: 80px;
+    width: 200px;
+    text-align: center;
+}
+
+#parrafo3 {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    font-size: normal;
+    color: white;
+    margin: 0px 750px;
+    position: absolute;
+    bottom: -1190px;
+    left: 500px;
+    width: 200px;
+    text-align: center;
+}
+
+#texto4 {
+    position: absolute;
+    bottom: -1830px;
+    left: 230px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #363636;
+    font-size: 50px;
+}
+
+#texto5 {
+    position: absolute;
+    bottom: -1740px;
+    left: 230px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #00CA4E;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#parrafo5 {
+    position: absolute;
+    bottom: -2000px;
+    left: 310px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #363636;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 600px;
+    line-height: 40px;
+}
+
+#parrafo6 {
+    position: absolute;
+    bottom: -2090px;
+    left: 310px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #363636;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 800px;
+    line-height: 40px;
+}
+
+#parrafo7 {
+    position: absolute;
+    bottom: -2200px;
+    left: 310px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #363636;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 800px;
+    line-height: 40px;
+}
+
+#Figuras {
+    position: absolute;
+    bottom: -2235px;
+    left: 200px;
+    height: 350px;
+}
+
+#Ideas {
+    position: absolute;
+    bottom: -2200px;
+    right: 400px;
+}
+
+#texto6 {
+    position: absolute;
+    bottom: -2450px;
+    right: 850px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #00CA4E;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#texto7 {
+    position: absolute;
+    bottom: -2530px;
+    right: 680px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+#parrafo8 {
+    position: absolute;
+    bottom: -2600px;
+    right: 650px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #363636;
+    font-size: 22px;
+}
+
+#Rectangulo1 {
+    position: relative;
+    bottom: -3100px;
+    left: 310px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 0px 29px 0px 40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#DolarIcono {
+    margin: 40px 40px;
+}
+
+#texto8 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 21px;
+    margin: -10px 40px;
+    color: #363636;
+}
+
+#parrafo9 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 40px;
+    color: #363636;
+    line-height: 32px;
+    text-align: left;
+    width: 290px;
+}
+
+#Rectangulo2 {
+    position: relative;
+    bottom: -2730px;
+    left: 710px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 29px 0px 40px 0px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#BombillaIcono {
+    margin: 40px 40px;
+}
+
+#texto9 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 21px;
+    margin: -10px 40px;
+    color: #363636;
+}
+
+#parrafo10 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 40px;
+    color: #363636;
+    line-height: 32px;
+    text-align: left;
+    width: 280px;
+}
+
+#Rectangulo3 {
+    position: relative;
+    bottom: -2360px;
+    right: -1110px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 0px 29px 0px 40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#MapaIcono {
+    margin: 30px 40px;
+}
+
+#texto10 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 21px;
+    margin: -10px 40px;
+    color: #363636;
+}
+
+#parrafo11 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 40px;
+    color: #363636;
+    line-height: 32px;
+    text-align: left;
+    width: 270px;
+}
+
+#FondoBlanco {
+    background-color: white;
+    height: 1250px;
+    width: 100%;
+    position: absolute;
+    top: 4300px;
+}
+
+#Testimonios {
+    font-family: Inter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #00CA4E;
+    position: absolute;
+    left: 835px;
+    top: 85px;
+}
+
+#texto11 {
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    color: #363636;
+    position: absolute;
+    left: 500px;
+    top: 160px;
+}
+
+#Rectangulo4 {
+    position: relative;
+    left: 550px;
+    top: 310px;
+    background-color: #F7F9FC;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 380px;
+}
+
+#cita1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 225px;
+    margin: 0px 40px;
+    padding-top: 40px;
+}
+
+#testimonio1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 305px;
+    margin: 0px 40px;
+    padding-top: 90px;
+}
+
+#Rectangulo5 {
+    position: absolute;
+    left: 380px;
+    top: 2px;
+    background-color: #F7F9FC;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 380px;
+}
+
+#cita2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 225px;
+    margin: 0px 40px;
+    padding-top: 35px;
+}
+
+#testimonio2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 230px;
+    margin: 0px 40px;
+    padding-top: 60px;
+}
+
+#Rectangulo6 {
+    position: absolute;
+    left: 2px;
+    top: 440px;
+    background-color: #F7F9FC;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 380px;
+}
+
+#cita3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 225px;
+    margin: 0px 40px;
+    padding-top: 35px;
+}
+
+#testimonio3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 230px;
+    margin: 0px 40px;
+    padding-top: 60px;
+}
+
+#Rectangulo7 {
+    position: absolute;
+    left: 380px;
+    top: 2px;
+    background-color: #F7F9FC;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 380px;
+}
+
+#cita4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 225px;
+    margin: 0px 40px;
+    padding-top: 30px;
+}
+
+#testimonio4 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 32px;
+    color: #363636;
+    width: 300px;
+    margin: 0px 40px;
+    padding-top: 95px;
+}
+
+#FondoVerde {
+    width: 1140px;
+    height: 350px;
+    background-color: #00CA4E;
+    border-radius: 25px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 5800px;
+    left: 330px; 
+}
+
+#Cohete2 {
+    position: absolute;
+    right: -20px;
+    bottom: 25px;
+}
+
+#texto12 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 200px;
+    letter-spacing: 1px;
+    color: white;
+    margin: 70px 60px;
+}
+
+#texto13 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    color: white;
+    margin: -65px 60px;
+    width: 700px;
+}
+
+#Obtenla {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 1.2px;
+    color: white;
+    width: 250px;
+    height: 20px;
+    margin: 0px 150px;
+    position: absolute;
+    bottom: 40px;
+    left: -85px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Pie {
+    width: 100%;
+    height: 350px;
+    background-color: #363636;
+    position: absolute;
+    top: 6300px; 
+}
+
+#Derechos {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    margin: 300px 0px;
+
+}
+
+#Linkedin {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#Facebook {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+#Instagram {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+#Contactos {
+   position: absolute;
+   top: 30px;
+   right: 500px;
+}
+
+#electronico {
+    position: absolute;
+    top: 50px;
+    right: 330px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    color: white;
+}
+
+#direccion {
+    position: absolute;
+    top: 90px;
+    right: 305px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    color: white;
+}
+
+#telefono {
+    position: absolute;
+    top: 130px;
+    right: 360px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    color: white;
+}
+
+#descarga {
+    position: absolute;
+    top: 175px;
+    right: 370px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    color: white;
+}
